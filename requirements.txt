@@ -2,3 +2,6 @@ streamlit
 pandas
 openpyxl
 prophet
+holidays
+plotlystreamlit
+plotly
