@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# Streamlit specific
+.streamlit/local_configs.toml
+.streamlit/
+*.log
+
+# Data (if you don't want to commit large data files)
+data/
+*.xlsx
+*.csv
+*.zip
+
+# Prophet specific
+*.stan
+*.pkl
+*.json
