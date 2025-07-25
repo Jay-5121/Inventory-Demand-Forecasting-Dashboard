@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Inventory Demand Segmentation and Forecasting
 
 This project segments inventory items using ABC analysis and provides an interactive dashboard using Streamlit.
@@ -21,3 +22,7 @@ streamlit run main.py
 ## To Do
 - Add demand forecasting
 - Enhance visualizations 
+=======
+# Inventory-Demand-Forecasting-Dashboard
+An interactive Streamlit dashboard for inventory management, featuring ABC segmentation of retail sales data and demand forecasting for key 'A' category items using the Prophet model. Designed to optimize stock levels and improve supply chain efficiency.
+>>>>>>> a865cde962b4521cdbf4079fe58beb061833c5d5
