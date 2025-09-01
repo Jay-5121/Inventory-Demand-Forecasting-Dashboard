@@ -21,7 +21,7 @@ data_source = st.sidebar.radio("Choose your data source:", ("Use Sample Data", "
 df = None  # Initialize df to None
 
 if data_source == "Use Sample Data":
-    sample_data_path = "data/Online_Retail.xlsx"
+    sample_data_path = "Online_Retail.xlsx"  # Look for the file in the main directory
     if os.path.exists(sample_data_path):
         try:
             df = pd.read_excel(sample_data_path)
@@ -31,7 +31,7 @@ if data_source == "Use Sample Data":
             st.stop()
     else:
         st.sidebar.warning(f"Sample data file not found at '{sample_data_path}'.")
-        st.warning(f"Please ask the repository owner to upload the 'Online_Retail.xlsx' file to the '{sample_data_path}' directory.")
+        st.warning("Please ask the repository owner to upload the 'Online_Retail.xlsx' file to the main project directory.")
         st.stop()
 
 elif data_source == "Upload Your Own File":
