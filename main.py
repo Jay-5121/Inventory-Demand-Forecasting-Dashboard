@@ -21,7 +21,7 @@ data_source = st.sidebar.radio("Choose your data source:", ("Use Sample Data", "
 df = None  # Initialize df to None
 
 if data_source == "Use Sample Data":
-    sample_data_path = "data/Online_Retail.xlsx"
+    sample_data_path = "Online Retail.xlsx"
     if os.path.exists(sample_data_path):
         try:
             df = pd.read_excel(sample_data_path)
